@@ -1,4 +1,4 @@
-environment = "ENV"
+environment = "chattanooga_devops"
 
 subscription_id = "527b9f93-c7d1-4359-9f24-b86f67e3b9d0"
 client_id       = "d96b8278-3ec3-4a12-84d8-ef0e5176ef51"
