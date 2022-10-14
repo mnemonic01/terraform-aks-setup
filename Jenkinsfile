@@ -15,7 +15,7 @@ pipeline {
         BUILD_USER = ''
     }
     parameters{
-        choice( name: 'subscription_id', choices: ['sukriti-subs', 'shivam-subs', 'Ashish-subs'], description: 'Select the subscription')
+        choice( name: 'subscription_id', choices: ['mnemonic01', 'mnemonic02', 'mnemonic03'], description: 'Select the subscription')
         string( name: 'rg_name', defaultValue: '', description: 'Enter resource group name')
         string( name: 'rg_location', defaultValue: '', description: 'Enter location')
         string( name: 'cluster_name', defaultValue: '', description: 'Enter unique name for cluster')
